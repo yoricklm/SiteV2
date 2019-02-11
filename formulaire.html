@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	
+        <title>Contact</title>
+    </head>
+
+    <body>
+		<header>
+			<h1>Yorick Le Moing</h1>
+			<nav>
+				<ul id="menu">
+					<li><a href='index.html'>Accueil</a></li>
+					<li><a href='pro.html'>Expérience professionnelle</a></li>
+					<li><a href='formation.html'>Formations</a>
+							<ul>
+								<li><a href='formation.html#informatique'>DUT Informatique</a></li>
+								<li><a href='formation.html#geii'>DUT GEII (Génie Electrique et Informatique Industriel)</a></li>
+								<li><a href='formation.html#bac'>BACCALAUREAT STI2D</a></li>
+							</ul>
+					</li>
+					<li><a href='realisation.html'>Réalisations</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section>
+			<h2 id="file"><a href='index.html'>Accueil</a> > Contact</h2>
+			<article>
+			<h2>Contact</h2>
+				<form method='post'>
+					<p><label for="nom">Votre nom</label> : <input type="text" name="nom" id="nom" required/></p>
+					<p><label for="mail">Votre adresse E-mail</label> : <input type="text" name="mail" id="mail" required/></p>
+					<p><label for="sujet">Sujet</label> : <input type="text" name="sujet" id="sujet"/></p>
+					<p>
+						<label>Votre message :</label>
+						<textarea name="message" id="message"></textarea>
+					</p>
+					<input type="submit" value="Envoyer" id="envoyer"/>
+				</form>
+			</article>
+			<aside>
+				<div id='cv'>
+					<a href='page_cv.html'>Mon CV</a>
+					<p>(imprimable)</p>
+				</div>
+				<div id='contact'>
+					<h3>contact</h3>
+					<ul>
+						<li><p><strong>Tel</strong>: 06 42 76 32 01</p></li>
+						<li><a href='mailto:yorick.lemoing@hotmail.fr'>yorick.lemoing@hotmail.fr</a></li>
+						<li><a href='formulaire.html'>m'envoyer un message</a></li>
+					</ul>
+				</div>
+			</aside>
+		</section>
+		<footer>
+			<p>2017 Y. Le Moing</p>
+			<a href="#" class="top">Haut de page</a>
+		</footer>
+    </body>
+</html>
